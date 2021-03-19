@@ -1,10 +1,10 @@
-int BUTTONstate1 = 0;
+int BUTTONstate1 = 1;
 
-int BUTTONstate2 = 0;
+int BUTTONstate2 = 1;
 
 void setup()
 {
-  pinMode(2, INPUT);
+  pinMode(4, INPUT);
   pinMode(8, OUTPUT);
   pinMode(4, INPUT);
   pinMode(12, OUTPUT);
